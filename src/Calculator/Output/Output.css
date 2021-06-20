@@ -1,0 +1,9 @@
+.Display {
+  cursor:none;
+   width:100%;
+   font-size:xxx-large;
+    background: -webkit-linear-gradient(#ff002b,#ffc400);
+  -webkit-background-clip: text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+}

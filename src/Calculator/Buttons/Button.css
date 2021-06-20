@@ -1,0 +1,43 @@
+.button {
+    cursor: pointer;
+width: 5em;
+height: 2em;
+font-size: 3em;
+border:none;
+ background: -webkit-linear-gradient( #02f871,#fd008bef);
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button:active{
+    transform: scale(0.9);
+}
+
+.operator{
+background-color: black;
+color: #ff4800;
+width: 5em;
+height: 2em;
+font-size: 3em;
+border: none;
+margin: 0.05em;
+}
+
+.operator:active{
+    transform: scale(0.9);
+}
+
+.equal{
+background-color: black;
+color: #08b5fa;
+width: 5em;
+height: 2em;
+font-size: 3em;
+border: none;
+margin: 0.05em;
+}
+
+.equal:active{
+    transform: scale(0.9);
+}
