@@ -38,7 +38,6 @@ const Calculator = () => {
 
         try {
             setResult(
-                // eslint-disable-next-line
                 (eval(checkResult) || "") + "")
         } catch (e) {
             setResult("error")
